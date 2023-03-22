@@ -1,0 +1,112 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+}
+body {
+  background-image: url("../images/bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display:inline-block;
+  position:relative;
+}
+ul li a{
+  display:block;
+  padding:20px 25px;
+  margin-left: 80px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+ul li ul.dropdown li{
+  display:block;
+}
+ul li ul.dropdown{
+  width: 100%;
+  position:absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background: rebeccapurple;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display:block;
+  padding:20px 25px;
+  margin-left:80px;
+  color: #fff;
+  text-decoration: none;
+  text-align:center;
+  font-size: 20px;
+}
+ul li ul.dropdown1 li{
+  display:block;
+}
+ul li ul.dropdown1{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background: mediumpurple;
+}
+ul li:hover ul.dropdown1{
+  display: block;
+}
+
+p{
+  font-size: 60px;
+  margin-top: 350px;
+  text-align: center;
+}
+h3{
+  font-size: 13px;
+  text-align: center;
+}
+footer p{
+  font-size: 19px;
+}
+.explorebutton {
+  width: 300px;
+  font-color: white;
+  font-size: 13px;
+  padding: 15px;
+  background: mediumpurple;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 100px;
+  margin-left: 330px;
+  text-align: center;
+}
+.explorebutton a:hover {
+  transition: .3s;
+  color: rebeccapurple;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+a {
+  color: white;
+  font-family: monospace;
+}
