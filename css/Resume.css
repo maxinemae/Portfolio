@@ -1,0 +1,271 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Public Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.main-section{
+    width: 90%;
+    height: 100%;
+    margin-right:50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    margin-top: 200px;
+    background-color: #d8b9ed;
+    margin-left: 50px;
+}
+
+/* PROFILE SECTION */
+.main-section .left-part{
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+    background-color: #9160ab;
+}
+
+.left-part .photo-container{
+    margin-bottom: 35px;
+}
+
+.left-part .photo-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    border: 8px solid #92549e;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.title{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 13px;
+    background-color: #af8fc9;
+    color: black;
+    text-align: center;
+    margin: 22px 0;
+}
+
+/* CONTACT SECTION */
+.contact-container{
+    margin-bottom: 1rem;
+}
+
+.contact-container .contact-list{
+    display: flex;
+    gap: 16;
+    margin-bottom: 16px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+.contact-container .contact-text{
+  margin-left: 10px;
+  
+}
+
+
+/* EDUCATION SECTION*/
+.education-container{
+    margin-bottom: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.education-container .course{
+    margin-bottom: 16px;
+    color: black;
+}
+ 
+.education-container .education-title{
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
+.education-container .college-name{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.education-container .education-date{
+    font-size: 14px;
+    color: black;
+}
+
+/* LANGUAGES SECTION */
+.languages-container{
+    margin-bottom: 8px;
+    font-style: 'Lato', sans-serif;
+}
+.languages-container .language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+}
+.languages-container .language .left-language p{
+  font-size: 16px;
+}
+
+.languages-container .language .right-language .outer-layer{
+    background-color: whitesmoke;
+    height: 6.4px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.languages-container .language .right-language .inner-layer{
+    background-color: #3D3D3D;
+    height: 100%;
+    border-radius: inherit;
+}
+
+/* MY NAME SECTION */
+.right-part{
+    padding: 44px;
+}
+
+.right-part .banner{
+    font-family: 'Open Sans', sans-serif; 
+    color: #40424a;
+    margin-bottom: 44.5px;
+}
+
+.right-part .banner .firstname{
+    font-size: 50px;
+}
+
+.right-part .banner .lastname{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: -8px;
+}
+
+.right-part .banner .position{
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+    justify-content: space-between;
+    line-height: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+/* WORK EXPERIENCE SECTION */
+.work-container{
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+.work-container .work:not(:last-child){
+    margin-bottom: 16;
+}
+
+.work-container .work .job-date{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-bottom: 11px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.work-container .work .company-name{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    color: black;
+}
+
+.work-container .work .work-text{
+    color: #2c2f38;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/* REFERENCE SECTION */
+.references-container .references{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4D4D4F;
+}
+
+.references-container .references .name{
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+}
+
+.references-container .references .company-name{
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.references-container .references .phone{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: black;
+}
+.references-container .references .phone p{
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+.references-container .references .phone .phone-text{
+    font-weight: 600;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.skills-container ul li{
+  margin-top: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  list-style: none;
+  font-size: 15px;
+}
+
+/* RETURN BUTTON */
+.back-button a:hover {
+
+  transition: .5s;
+  color: mediumpurple;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+a {
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
