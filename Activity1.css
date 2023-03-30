@@ -1,0 +1,23 @@
+body{
+
+}
+.webdev del{
+  color: red;
+}
+.enhy img{
+  height: 300px;
+}
+.bag img{
+  height: 300px;
+  width: 200px;
+}
+.back-button a:hover {
+transition: .3s;
+color: lightblue;
+font-weight: bold;
+font-family: monospace;
+}
+a {
+color: darkblue;
+font-family: monospace;
+}
