@@ -9,14 +9,13 @@
 a{
     text-decoration: none;
 }
-body{
-  width: 100%;
-  height: 140vh;
+.hero{
+    width: 100%;
+    height: 140vh;
     background: url(../images/canva.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 nav{
@@ -107,6 +106,23 @@ nav ul li a:hover:after{
     margin-bottom: 30px;
 }
 
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display: block;
+  padding: 20px 25px;
+  margin-left: 80px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
 ul li ul.dropdown li{
   display: block;
 }
@@ -122,3 +138,14 @@ ul li a:hover{
 ul li:hover ul.dropdown{
   display: block;
 }
+
+
+
+    
+
+
+
+
+    
+
+
