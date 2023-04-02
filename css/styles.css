@@ -172,3 +172,7 @@ ul li a:hover{
 ul li:hover ul.dropdown1{
   display: block;
 }
+footer p{
+  font-size: 19px;
+  color: white;
+}
