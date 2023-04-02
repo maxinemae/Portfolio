@@ -9,8 +9,9 @@
 body{
     background-image: url("../background.png");
     background-repeat: no-repeat;
-    background -size: cover;
+    background-size: cover;
     width: 100%
+}
 a{
     text-decoration: none;
 }
