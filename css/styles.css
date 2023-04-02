@@ -11,8 +11,8 @@ a{
 }
 .hero{
     width: 100%;
-    height: 140vh;
-    background: url(../images/canva.png);
+
+    background: url(../images/background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
