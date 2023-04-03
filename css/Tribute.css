@@ -78,10 +78,20 @@ h2{
 }
 .ash-msg{
   margin-top: 2px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 40px 0;
+  font-weight: 400;
+  text-align: justify;
   }
 
 .max-msg{
   margin-top: 2px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 40px 0;
+  font-weight: 400;
+  text-align: justify;
   }
 
 .card-btn{
