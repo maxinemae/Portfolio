@@ -9,8 +9,8 @@ body {
     width: 800px;
     height: 1100px;
     background-color: #944b93;
-    margin-left: 80px;
-    position: fixed;
+    margin-left: 150px;
+    position: absolute;
 }
 
 p{
