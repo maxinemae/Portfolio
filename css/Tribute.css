@@ -25,8 +25,8 @@ h2{
   border-radius: 20px;
   overflow: hidden;
   border: 8px solid #ddd;
-  position: relative;
-  margin: 500px 30px;
+  position: absolute;
+  margin-top: 500px;
 }
 
 .card-img{
