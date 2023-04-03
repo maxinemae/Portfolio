@@ -22,7 +22,7 @@ h2{
 
 .card{
   width: 620px;
-  height: 900px;
+  height: 1000px;
   border-radius: 20px;
   overflow: hidden;
   border: 8px solid #ddd;
@@ -71,23 +71,23 @@ h2{
 
 .card-info{
   font-size: 14px;
-  line-height: 30px;
-  margin: 40px 0;
+  line-height: 40px;
+  margin: 0px 0;
   font-weight: 400;
   text-align: justify;
 }
 .ash-msg{
   font-size: 14px;
-  line-height: 30px;
-  margin: 40px 0;
+  line-height: 40px;
+  margin: 0px 0;
   font-weight: 400;
   text-align: justify;
   }
 
 .max-msg{
   font-size: 14px;
-  line-height: 30px;
-  margin: 40px 0;
+  line-height: 40px;
+  margin: 0px 0;
   font-weight: 400;
   text-align: justify;
   }
