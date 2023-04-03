@@ -71,22 +71,22 @@ h2{
 
 .card-info{
   font-size: 14px;
-  line-height: 30px;
+  line-height: 0px;
   margin: 40px 0;
   font-weight: 400;
   text-align: justify;
 }
 .ash-msg{
   font-size: 14px;
-  line-height: 30px;
-  margin: 10px 0;
+  line-height: 0px;
+  margin: 40px 0;
   font-weight: 400;
   text-align: justify;
   }
 
 .max-msg{
   font-size: 14px;
-  line-height: 30px;
+  line-height: 0px;
   margin: 40px 0;
   font-weight: 400;
   text-align: justify;
