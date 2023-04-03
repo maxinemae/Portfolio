@@ -70,24 +70,22 @@ h2{
 }
 
 .card-info{
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
   margin: 40px 0;
   font-weight: 400;
   text-align: justify;
 }
 .ash-msg{
-  margin-top: 1px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
-  margin: 40px 0;
+  margin: 10px 0;
   font-weight: 400;
   text-align: justify;
   }
 
 .max-msg{
-  margin-top: 1px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
   margin: 40px 0;
   font-weight: 400;
