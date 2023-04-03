@@ -20,8 +20,8 @@ h2{
   align-items: center;
 }
 .card{
-  width: 720px;
-  height: 1200px;
+  width: 820px;
+  height: 1250px;
   border-radius: 20px;
   overflow: hidden;
   border: 8px solid #ddd;
@@ -46,7 +46,7 @@ h2{
   backdrop-filter: blur(5px);
   border-radius: 15px;
   color: white;
-  padding: 310px 100px;
+  padding: 310px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
