@@ -21,7 +21,7 @@ h2{
 }
 .card{
   width: 720px;
-  height: 1000px;
+  height: 1200px;
   border-radius: 20px;
   overflow: hidden;
   border: 8px solid #ddd;
@@ -46,7 +46,7 @@ h2{
   backdrop-filter: blur(5px);
   border-radius: 15px;
   color: white;
-  padding: 110px 30px;
+  padding: 10px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
