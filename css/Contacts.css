@@ -5,14 +5,6 @@ body {
   background-size: cover;
 }
 
-.left-part{
-    width: 800px;
-    height: 1100px;
-    background-color: #944b93;
-    margin-left: 150px;
-    position: absolute;
-}
-
 p{
   font-size: 40px;
   font-family: "Sofia", sans-serif;
