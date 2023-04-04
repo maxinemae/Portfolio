@@ -27,7 +27,7 @@ body{
 
 .main-section{
     width: 80%;
-    height: 80%;
+    height: 100%;
     margin-right:50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
@@ -156,7 +156,7 @@ body{
 }
 
 .right-part .banner .firstname{
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .right-part .banner .lastname{
