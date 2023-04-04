@@ -22,7 +22,7 @@ nav{
     padding: 30px 60px;
 }
 .logo{
-    max-height: 60px;
+    max-height: 70px;
 }
 nav ul li{
     list-style: none;
@@ -63,7 +63,7 @@ nav ul li a:hover:after{
     transition: all .4s ease-in-out;
     background-size: 152% 100%;
     background: #ec93fe;
-    border: 2px solid #fd4766;
+    border: 2px solid purple;
 }
 .btn:hover{
     background: transparent;
@@ -96,6 +96,7 @@ nav ul li a:hover:after{
 }
 .content h1 span{
     color: mediumpurple;
+    border: 2px solid #d7bde2;
 }
 .content p{
     width: 55%;
