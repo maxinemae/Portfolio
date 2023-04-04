@@ -27,21 +27,26 @@ body{
 
 .main-section{
     width: 80%;
-    height: 100%;
-    margin-right:50px;
+    height: 1250px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: flex;
-    margin-top: 200px;
     background-color: #d8b9ed;
-    margin-left: 150px;
+    display: flex;
+    margin-top: 190px;
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-bottom: 90px;
 }
 
 /* PROFILE SECTION */
 .main-section .left-part{
     width: 60%;
-    height: 100%;
-    padding: 45px;
+    padding: 35px;
     background-color: #9160ab;
+}
+.main-section .right-part {
+   width: 100%;
+   padding: 35px;
+   background-color: #d8b9ed;
 }
 
 .left-part .photo-container{
@@ -257,17 +262,30 @@ body{
 }
 
 /* RETURN BUTTON */
+.back-button{
+  color: rebeccapurple;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all .4s ease-in-out;
+  background-size: 152% 100%;
+  background: #ec93fe;
+  border: 2px solid rebeccapurple;
+  margin-left: 380px;
+}
 .back-button a:hover {
-
   transition: .5s;
-  color: mediumpurple;
+  color: rebeccapurple;
   font-weight: bold;
   font-family: monospace;
 }
 
-a {
-  color: white;
+/*a {
+  color: rebeccapurple;
   font-family: monospace;
   font-size: 30px;
-  margin-bottom: 80px;
-}
+  margin-bottom: 0px;
+}*/
