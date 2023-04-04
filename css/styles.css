@@ -96,7 +96,7 @@ nav ul li a:hover:after{
 }
 .content h1 span{
     color: mediumpurple;
-    border: 2px solid #d7bde2;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #d7bde2;
 }
 .content p{
     width: 55%;
