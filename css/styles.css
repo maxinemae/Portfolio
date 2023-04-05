@@ -72,9 +72,9 @@ nav ul li a:hover:after{
     color: #fd4766;
 }
 .content{
-    position: absolute;
-    top: 35%;
-    left: 8%;
+
+    margin-top: 105px;
+    margin-left: 30px;
 }
 .content .title{
     color: #1f1f25;
